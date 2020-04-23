@@ -25,10 +25,10 @@ namespace AnBertoCars.Servico
                 if (notificationResult.IsValid)
                 {
 
-                    if (entidade.idCliente == 0)
-                        _directvendedorRepositorio.Adicionar(entidade);
-                    else
-                        _directvendedorRepositorio.Atualizar(entidade);
+                    //if (entidade.idTelefone == 0)
+                    _directvendedorRepositorio.Adicionar(entidade);
+                    //else
+                    //  _telefoneRepositorio.Atualizar(entidade);
 
                     notificationResult.Add("Direct cadastrado com sucesso.");
                 }

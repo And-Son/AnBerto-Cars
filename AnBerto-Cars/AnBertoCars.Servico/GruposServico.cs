@@ -25,10 +25,10 @@ namespace AnBertoCars.Servico
                 if (notificationResult.IsValid)
                 {
 
-                    if (entidade.idGrupo == 0)
-                        _gruposRepositorio.Adicionar(entidade);
-                    else
-                        _gruposRepositorio.Atualizar(entidade);
+                    //if (entidade.idTelefone == 0)
+                    _gruposRepositorio.Adicionar(entidade);
+                    //else
+                    //  _telefoneRepositorio.Atualizar(entidade);
 
                     notificationResult.Add("Grupos cadastrado com sucesso.");
                 }

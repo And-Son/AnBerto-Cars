@@ -25,10 +25,10 @@ namespace AnBertoCars.Servico
                 if (notificationResult.IsValid)
                 {
 
-                    if (entidade.idAvaliacao == 0)
-                        _avaliarvendedorRepositorio.Adicionar(entidade);
-                    else
-                        _avaliarvendedorRepositorio.Atualizar(entidade);
+                    //if (entidade.idTelefone == 0)
+                    _avaliarvendedorRepositorio.Adicionar(entidade);
+                    //else
+                    //  _telefoneRepositorio.Atualizar(entidade);
 
                     notificationResult.Add("Avaliacao cadastrada com sucesso.");
                 }

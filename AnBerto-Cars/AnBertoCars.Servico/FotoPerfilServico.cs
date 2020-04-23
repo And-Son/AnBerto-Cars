@@ -25,10 +25,10 @@ namespace AnBertoCars.Servico
                 if (notificationResult.IsValid)
                 {
 
-                    if (entidade.idFotoPerfil == 0)
-                        _fotoperfilRepositorio.Adicionar(entidade);
-                    else
-                        _fotoperfilRepositorio.Atualizar(entidade);
+                    //if (entidade.idTelefone == 0)
+                    _fotoperfilRepositorio.Adicionar(entidade);
+                    //else
+                    //  _telefoneRepositorio.Atualizar(entidade);
 
                     notificationResult.Add("Endereco cadastrado com sucesso.");
                 }
