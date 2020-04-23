@@ -48,9 +48,10 @@ namespace AnBertoCars.Servico
             return _telefoneRepositorio.ListarAtivos();
         }
 
-        public void Excluir(Telefone entidade)
+        public string Excluir(Telefone entidade)
         {
             _telefoneRepositorio.Remover(entidade);
+            return "Excluido";
         }
 
         public IEnumerable<Telefone> ListarTodos()

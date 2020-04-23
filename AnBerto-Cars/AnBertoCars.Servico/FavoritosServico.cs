@@ -26,7 +26,7 @@ namespace AnBertoCars.Servico
                 {
 
                     //if (entidade.idTelefone == 0)
-                    _telefoneRepositorio.Adicionar(entidade);
+                    _favoritosSRepositorio.Adicionar(entidade);
                     //else
                     //  _telefoneRepositorio.Atualizar(entidade);
 
@@ -48,9 +48,10 @@ namespace AnBertoCars.Servico
             return _favoritosSRepositorio.ListarAtivos();
         }
 
-        public void Excluir(Favoritos entidade)
+        public string Excluir(Favoritos entidade)
         {
             _favoritosSRepositorio.Remover(entidade);
+            return "Excluido";
         }
 
         public IEnumerable<Favoritos> ListarTodos()

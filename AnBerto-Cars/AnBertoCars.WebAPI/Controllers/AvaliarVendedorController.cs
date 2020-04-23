@@ -31,9 +31,9 @@ namespace AnBertoCars.WebAPI.Controllers
         }
 
         [HttpDelete]
-        public void Excluir(AvaliarVendedor entidade)
+        public string Excluir(AvaliarVendedor entidade)
         {
-            avaliarvendedorServico.Excluir(entidade);
+            return avaliarvendedorServico.Excluir(entidade);            
         }
     }
 }

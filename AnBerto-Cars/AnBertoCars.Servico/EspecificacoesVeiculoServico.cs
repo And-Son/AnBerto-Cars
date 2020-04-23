@@ -48,9 +48,10 @@ namespace AnBertoCars.Servico
             return _especificacoesveiculoRepositorio.ListarAtivos();
         }
 
-        public void Excluir(EspecificacoesVeiculo entidade)
+        public string Excluir(EspecificacoesVeiculo entidade)
         {
             _especificacoesveiculoRepositorio.Remover(entidade);
+            return "Excluido";
         }
 
         public IEnumerable<EspecificacoesVeiculo> ListarTodos()

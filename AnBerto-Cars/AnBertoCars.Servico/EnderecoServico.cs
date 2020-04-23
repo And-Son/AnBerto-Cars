@@ -48,9 +48,10 @@ namespace AnBertoCars.Servico
             return _enderecoRepositorio.ListarAtivos();
         }
 
-        public void Excluir(Endereco entidade)
+        public string Excluir(Endereco entidade)
         {
             _enderecoRepositorio.Remover(entidade);
+            return "Excluido";
         }
 
         public IEnumerable<Endereco> ListarTodos()

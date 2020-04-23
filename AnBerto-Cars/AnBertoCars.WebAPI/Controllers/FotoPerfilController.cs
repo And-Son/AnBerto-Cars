@@ -31,9 +31,9 @@ namespace AnBertoCars.WebAPI.Controllers
         }
 
         [HttpDelete]
-        public void Excluir(FotoPerfil entidade)
+        public string Excluir(FotoPerfil entidade)
         {
-            fotoperfilServico.Excluir(entidade);
+            return fotoperfilServico.Excluir(entidade);
         }
     }
 }

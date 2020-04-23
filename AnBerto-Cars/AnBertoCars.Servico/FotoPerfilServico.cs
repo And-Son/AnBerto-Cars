@@ -48,9 +48,10 @@ namespace AnBertoCars.Servico
             return _fotoperfilRepositorio.ListarAtivos();
         }
 
-        public void Excluir(FotoPerfil entidade)
+        public string Excluir(FotoPerfil entidade)
         {
             _fotoperfilRepositorio.Remover(entidade);
+            return "Excluido";
         }
 
         public IEnumerable<FotoPerfil> ListarTodos()
