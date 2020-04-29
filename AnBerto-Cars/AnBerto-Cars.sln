@@ -21,9 +21,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnBertoCars.Dominio", "AnBe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnBertoCars.Comum", "AnBertoCars.Comum\AnBertoCars.Comum.csproj", "{86394B6F-88A6-4DB5-BB4F-ED1C24B1DBAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnBertoCars.Servico", "AnBertoCars.Servico\AnBertoCars.Servico.csproj", "{81F8144A-3F0B-436D-A000-F25159DFC6F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnBertoCars.Servico", "AnBertoCars.Servico\AnBertoCars.Servico.csproj", "{81F8144A-3F0B-436D-A000-F25159DFC6F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnBertoCars.WebAPI", "AnBertoCars.WebAPI\AnBertoCars.WebAPI.csproj", "{17343A29-2EE9-4836-BA7A-F5645C772F7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnBertoCars.WebAPI", "AnBertoCars.WebAPI\AnBertoCars.WebAPI.csproj", "{17343A29-2EE9-4836-BA7A-F5645C772F7B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Teste", "5 - Teste", "{CB850445-63CB-4E39-9156-FE365D1A63AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnBertoCars.Teste", "AnBertoCars.Teste\AnBertoCars.Teste.csproj", "{C2ED608A-2F96-461A-9AC6-4ED9A5E2BF8F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +59,10 @@ Global
 		{17343A29-2EE9-4836-BA7A-F5645C772F7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17343A29-2EE9-4836-BA7A-F5645C772F7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17343A29-2EE9-4836-BA7A-F5645C772F7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2ED608A-2F96-461A-9AC6-4ED9A5E2BF8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2ED608A-2F96-461A-9AC6-4ED9A5E2BF8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2ED608A-2F96-461A-9AC6-4ED9A5E2BF8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2ED608A-2F96-461A-9AC6-4ED9A5E2BF8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -66,6 +74,7 @@ Global
 		{86394B6F-88A6-4DB5-BB4F-ED1C24B1DBAE} = {6E16E6AB-73B8-4C27-82D3-38240B19CC58}
 		{81F8144A-3F0B-436D-A000-F25159DFC6F7} = {884B0B68-A8A4-484B-B16D-687243EAE08D}
 		{17343A29-2EE9-4836-BA7A-F5645C772F7B} = {C72EA0BF-A7FE-4DC7-82C2-93515142692E}
+		{C2ED608A-2F96-461A-9AC6-4ED9A5E2BF8F} = {CB850445-63CB-4E39-9156-FE365D1A63AA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1CB45124-CFFE-4B1D-9C44-AD065B475318}
