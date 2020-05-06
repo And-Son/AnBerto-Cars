@@ -13,7 +13,7 @@ namespace AnBertoCars.Data.Configuracoes
         public void Configure(EntityTypeBuilder<DirectVendedor> builder)
         {
             builder.ToTable("DirectVendedor","AndBerto");
-            builder.HasKey("idPublicacao", "idCliente", "idPerfil");
+            builder.HasKey("idDirectVendedor", "idPublicacao", "idCliente");
             builder.Property(f => f.Mensagem)
                 .IsRequired()
                 .HasMaxLength(200);

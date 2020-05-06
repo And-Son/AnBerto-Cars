@@ -21,8 +21,8 @@ namespace AnBertoCars.WebAPI.Controllers
             avaliarvendedorServico = new AvaliarVendedorServico();
         }
 
-        [HttpGet("ativos")]
-        public IEnumerable<AvaliarVendedor> Ativos() => avaliarvendedorServico.ListarAtivos();
+        [HttpGet("listar")]
+        public IEnumerable<AvaliarVendedor> Listar() => avaliarvendedorServico.ListarTodos();
 
         [HttpPost("salvar")]
         public NotificationResult Salvar(AvaliarVendedor entidade)

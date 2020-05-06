@@ -9,7 +9,7 @@ namespace AnBertoCars.Data
 {
     public class ClienteRepositorio : RepositorioBase<Cliente>
     {
-        public IEnumerable<Cliente> ListarAtivos()
+        public IEnumerable<Cliente> ListarTodos()
         {
             return Contexto
                 .Cliente

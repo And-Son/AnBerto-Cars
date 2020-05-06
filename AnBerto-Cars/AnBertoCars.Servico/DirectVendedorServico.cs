@@ -24,13 +24,16 @@ namespace AnBertoCars.Servico
             {
                 if (notificationResult.IsValid)
                 {
-
-                    //if (entidade.idTelefone == 0)
-                    _directvendedorRepositorio.Adicionar(entidade);
-                    //else
-                    //  _telefoneRepositorio.Atualizar(entidade);
-
-                    notificationResult.Add("Direct cadastrado com sucesso.");
+                    if (entidade.idDirectVendedor == 0)
+                    {
+                        _directvendedorRepositorio.Adicionar(entidade);
+                        notificationResult.Add("Direct cadastrada com sucesso.");
+                    }
+                    else
+                    {
+                        _directvendedorRepositorio.Atualizar(entidade);
+                        notificationResult.Add("Direct atualizada com sucesso.");
+                    }
                 }
 
                 notificationResult.Result = entidade;
@@ -43,10 +46,7 @@ namespace AnBertoCars.Servico
             }
         }
 
-        public IEnumerable<DirectVendedor> ListarAtivos()
-        {
-            return _directvendedorRepositorio.ListarAtivos();
-        }
+        
 
         public string Excluir(DirectVendedor entidade)
         {

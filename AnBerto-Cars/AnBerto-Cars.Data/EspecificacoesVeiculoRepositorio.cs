@@ -9,7 +9,7 @@ namespace AnBertoCars.Data
 {
     public class EspecificacoesVeiculoRepositorio : RepositorioBase<EspecificacoesVeiculo>
     {
-        public IEnumerable<EspecificacoesVeiculo> ListarAtivos()
+        public IEnumerable<EspecificacoesVeiculo> ListarTodos()
         {
             return Contexto
                 .EspecificacoesVeiculo

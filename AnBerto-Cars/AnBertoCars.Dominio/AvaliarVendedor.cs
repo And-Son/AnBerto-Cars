@@ -9,7 +9,6 @@ namespace AnBertoCars.Dominio
     {
         public int idAvaliacao { get; set; }
         public int idCliente { get; set; }
-        public int idPerfil { get; set; }
         public int idPublicacao { get; set; }
         public int Nota { get; set; }
         public string Comentario { get; set; }        

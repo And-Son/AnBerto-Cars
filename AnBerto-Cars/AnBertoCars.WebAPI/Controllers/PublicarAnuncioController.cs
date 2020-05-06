@@ -21,8 +21,8 @@ namespace AnBertoCars.WebAPI.Controllers
             publicarAnuncioServico = new PublicarAnuncioServico();
         }
 
-        [HttpGet("ativos")]
-        public IEnumerable<PublicarAnuncio> Ativos() => publicarAnuncioServico.ListarAtivos();
+        [HttpGet("listar")]
+        public IEnumerable<PublicarAnuncio> Listar() => publicarAnuncioServico.ListarTodos();
 
         [HttpPost("salvar")]
         public NotificationResult Salvar(PublicarAnuncio entidade)

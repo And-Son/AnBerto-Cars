@@ -13,10 +13,10 @@ namespace AnBertoCars.Data.Configuracoes
         public void Configure(EntityTypeBuilder<Cliente> builder)
         {
             builder.ToTable("Cliente","AndBerto");
-            builder.HasKey("idCliente","idPerfil");
+            builder.HasKey("idCliente");
             builder.Property(f => f.CPF)
                 .HasMaxLength(11);
-            builder.Property(f => f.Idade);
+            builder.Property(f => f.DataNasc);
             builder.Property(f => f.Nome)
                 .IsRequired()
                 .HasMaxLength(150);

@@ -21,8 +21,8 @@ namespace AnBertoCars.WebAPI.Controllers
             gruposServico = new GruposServico();
         }
 
-        [HttpGet("ativos")]
-        public IEnumerable<Grupos> Ativos() => gruposServico.ListarAtivos();
+        [HttpGet("listar")]
+        public IEnumerable<Grupos> Listar() => gruposServico.ListarTodos();
 
         [HttpPost("salvar")]
         public NotificationResult Salvar(Grupos entidade)

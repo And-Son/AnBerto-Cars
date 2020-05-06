@@ -21,8 +21,8 @@ namespace AnBertoCars.WebAPI.Controllers
             favoritosServico = new FavoritosServico();
         }
 
-        [HttpGet("ativos")]
-        public IEnumerable<Favoritos> Ativos() => favoritosServico.ListarAtivos();
+        [HttpGet("listar")]
+        public IEnumerable<Favoritos> Listar() => favoritosServico.ListarTodos();
 
         [HttpPost("salvar")]
         public NotificationResult Salvar(Favoritos entidade)

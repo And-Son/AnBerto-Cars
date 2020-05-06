@@ -21,8 +21,8 @@ namespace AnBertoCars.WebAPI.Controllers
             directvendedorServico = new DirectVendedorServico();
         }
 
-        [HttpGet("ativos")]
-        public IEnumerable<DirectVendedor> Ativos() => directvendedorServico.ListarAtivos();
+        [HttpGet("listar")]
+        public IEnumerable<DirectVendedor> Listar() => directvendedorServico.ListarTodos();
 
         [HttpPost("salvar")]
         public NotificationResult Salvar(DirectVendedor entidade)

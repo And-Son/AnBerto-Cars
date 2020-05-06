@@ -21,8 +21,8 @@ namespace AnBertoCars.WebAPI.Controllers
             especificacoesVeiculoServico = new EspecificacoesVeiculoServico();
         }
 
-        [HttpGet("ativos")]
-        public IEnumerable<EspecificacoesVeiculo> Ativos() => especificacoesVeiculoServico.ListarAtivos();
+        [HttpGet("listar")]
+        public IEnumerable<EspecificacoesVeiculo> Listar() => especificacoesVeiculoServico.ListarTodos();
 
         [HttpPost("salvar")]
         public NotificationResult Salvar(EspecificacoesVeiculo entidade)

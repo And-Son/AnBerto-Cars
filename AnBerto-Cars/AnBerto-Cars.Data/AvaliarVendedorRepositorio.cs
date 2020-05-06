@@ -8,7 +8,7 @@ namespace AnBertoCars.Data
 {
     public class AvaliarVendedorRepositorio : RepositorioBase<AvaliarVendedor>
     {
-        public IEnumerable<AvaliarVendedor> ListarAtivos()
+        public IEnumerable<AvaliarVendedor> ListarTodos()
         {
             return Contexto
                 .AvaliarVendedor

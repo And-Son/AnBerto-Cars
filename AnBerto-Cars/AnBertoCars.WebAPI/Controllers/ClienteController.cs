@@ -21,8 +21,8 @@ namespace AnBertoCars.WebAPI.Controllers
             clienteServico = new ClienteServico();
         }
 
-        [HttpGet("ativos")]
-        public IEnumerable<Cliente> Ativos() => clienteServico.ListarAtivos();
+        [HttpGet("listar")]
+        public IEnumerable<Cliente> Listar() => clienteServico.ListarTodos();
 
         [HttpPost("salvar")]
         public NotificationResult Salvar(Cliente entidade)

@@ -7,17 +7,16 @@ namespace AnBertoCars.Dominio
     public class Cliente
     {
         public int idCliente { get; set; }
-        public int idPerfil { get; set; }
         public string Nome { get; set; }
-        public DateTime Idade { get; set; }
+        public DateTime DataNasc { get; set; }
         public string CPF { get; set; }
         public int idTelefone { get; set; }
         public int idEndereco { get; set; }
 
         public int CalculaIdade()
         {
-            int idade = DateTime.Now.Year - Idade.Year;
-            if (DateTime.Now.DayOfYear < Idade.DayOfYear)
+            int idade = DateTime.Now.Year - DataNasc.Year;
+            if (DateTime.Now.DayOfYear < DataNasc.DayOfYear)
             {
                 idade = idade - 1;
             }

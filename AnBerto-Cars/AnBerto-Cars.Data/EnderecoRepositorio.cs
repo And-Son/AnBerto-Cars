@@ -9,7 +9,7 @@ namespace AnBertoCars.Data
 {
     public class EnderecoRepositorio : RepositorioBase<Endereco>
     {
-        public IEnumerable<Endereco> ListarAtivos()
+        public IEnumerable<Endereco> ListarTodos()
         {
             return Contexto
                 .Endereco

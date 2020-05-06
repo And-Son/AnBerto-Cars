@@ -13,7 +13,7 @@ namespace AnBertoCars.Data.Configuracoes
         public void Configure(EntityTypeBuilder<EspecificacoesVeiculo> builder)
         {
             builder.ToTable("EspecificacoesVeiculo","AndBerto");
-            builder.HasKey("idPublicacao","idCliente","idPerfil");
+            builder.HasKey("idEspecificacoesVeiculo", "idPublicacao","idCliente");
             builder.Property(f => f.Modelo)
                 .HasMaxLength(10);
             builder.Property(f => f.NomeVeiculo)

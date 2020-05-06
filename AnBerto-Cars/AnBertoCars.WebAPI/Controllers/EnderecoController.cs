@@ -21,8 +21,8 @@ namespace AnBertoCars.WebAPI.Controllers
             enderecoServico = new EnderecoServico();
         }
 
-        [HttpGet("ativos")]
-        public IEnumerable<Endereco> Ativos() => enderecoServico.ListarAtivos();
+        [HttpGet("listar")]
+        public IEnumerable<Endereco> Listar() => enderecoServico.ListarTodos();
 
         [HttpPost("salvar")]
         public NotificationResult Salvar(Endereco entidade)

@@ -9,7 +9,7 @@ namespace AnBertoCars.Data
 {
     public class DirectVendedorRepositorio : RepositorioBase<DirectVendedor>
     {
-        public IEnumerable<DirectVendedor> ListarAtivos()
+        public IEnumerable<DirectVendedor> ListarTodos()
         {
             return Contexto
                 .DirectVendedor

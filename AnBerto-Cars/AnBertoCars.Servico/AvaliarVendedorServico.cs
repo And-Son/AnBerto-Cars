@@ -25,12 +25,17 @@ namespace AnBertoCars.Servico
                 if (notificationResult.IsValid)
                 {
 
-                    //if (entidade.idTelefone == 0)
-                    _avaliarvendedorRepositorio.Adicionar(entidade);
-                    //else
-                    //  _telefoneRepositorio.Atualizar(entidade);
-
-                    notificationResult.Add("Avaliacao cadastrada com sucesso.");
+                    if (entidade.idAvaliacao == 0)
+                    {
+                        _avaliarvendedorRepositorio.Adicionar(entidade);
+                        notificationResult.Add("Avaliacao cadastrada com sucesso.");
+                    }
+                    else
+                    {
+                        _avaliarvendedorRepositorio.Atualizar(entidade);
+                        notificationResult.Add("Avaliacao atualizada com sucesso.");
+                    }
+                        
                 }
 
                 notificationResult.Result = entidade;
@@ -43,20 +48,15 @@ namespace AnBertoCars.Servico
             }
         }
 
-        public IEnumerable<AvaliarVendedor> ListarAtivos()
+        public IEnumerable<AvaliarVendedor> ListarTodos()
         {
-            return _avaliarvendedorRepositorio.ListarAtivos();
+            return _avaliarvendedorRepositorio.ListarTodos();
         }
 
         public string Excluir(AvaliarVendedor entidade)
         {
             _avaliarvendedorRepositorio.Remover(entidade);
             return "Excluido";
-        }
-
-        public IEnumerable<AvaliarVendedor> ListarTodos()
-        {
-            return _avaliarvendedorRepositorio.ListarTodos();
-        }
+        }        
     }
 }

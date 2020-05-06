@@ -16,7 +16,6 @@ namespace AnBertoCars.Data.Configuracoes
             builder.HasKey("idGrupo");
             builder.Property(f => f.QuantidadeMaxima);
             builder.Property(f => f.idCliente);
-            builder.Property(f => f.idPerfil);
             builder.Property(f => f.Mensagens)
                 .HasMaxLength(50);
         }

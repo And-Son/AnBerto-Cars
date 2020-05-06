@@ -24,13 +24,16 @@ namespace AnBertoCars.Servico
             {
                 if (notificationResult.IsValid)
                 {
-
-                    //if (entidade.idTelefone == 0)
-                    _fotoperfilRepositorio.Adicionar(entidade);
-                    //else
-                    //  _telefoneRepositorio.Atualizar(entidade);
-
-                    notificationResult.Add("Endereco cadastrado com sucesso.");
+                    if (entidade.idFotoPerfil == 0)
+                    {
+                        _fotoperfilRepositorio.Adicionar(entidade);
+                        notificationResult.Add("Foto perfil cadastrado com sucesso.");
+                    }
+                    else
+                    {
+                        _fotoperfilRepositorio.Atualizar(entidade);
+                        notificationResult.Add("Foto perfil atualizado com sucesso.");
+                    }
                 }
 
                 notificationResult.Result = entidade;
@@ -43,10 +46,7 @@ namespace AnBertoCars.Servico
             }
         }
 
-        public IEnumerable<FotoPerfil> ListarAtivos()
-        {
-            return _fotoperfilRepositorio.ListarAtivos();
-        }
+        
 
         public string Excluir(FotoPerfil entidade)
         {

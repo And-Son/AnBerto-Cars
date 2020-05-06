@@ -21,8 +21,8 @@ namespace AnBertoCars.WebAPI.Controllers
             telefoneServico = new TelefoneServico();
         }
 
-        [HttpGet("ativos")]
-        public IEnumerable<Telefone> Ativos() => telefoneServico.ListarAtivos();
+        [HttpGet("listar")]
+        public IEnumerable<Telefone> Listar() => telefoneServico.ListarTodos();
 
         [HttpPost("salvar")]
         public NotificationResult Salvar(Telefone entidade)

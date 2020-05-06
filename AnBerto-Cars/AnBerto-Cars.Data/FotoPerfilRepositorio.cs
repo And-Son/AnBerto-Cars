@@ -9,7 +9,7 @@ namespace AnBertoCars.Data
 {
     public class FotoPerfilRepositorio : RepositorioBase<FotoPerfil>
     {
-        public IEnumerable<FotoPerfil> ListarAtivos()
+        public IEnumerable<FotoPerfil> ListarTodos()
         {
             return Contexto
                 .FotoPerfil

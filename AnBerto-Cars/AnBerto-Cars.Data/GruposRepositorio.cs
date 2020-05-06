@@ -9,7 +9,7 @@ namespace AnBertoCars.Data
 {
     public class GruposRepositorio : RepositorioBase<Grupos>
     {
-        public IEnumerable<Grupos> ListarAtivos()
+        public IEnumerable<Grupos> ListarTodos()
         {
             return Contexto
                 .Grupos

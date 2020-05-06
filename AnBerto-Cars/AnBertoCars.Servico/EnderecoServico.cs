@@ -24,13 +24,16 @@ namespace AnBertoCars.Servico
             {
                 if (notificationResult.IsValid)
                 {
-
-                    //if (entidade.idTelefone == 0)
-                    _enderecoRepositorio.Adicionar(entidade);
-                    //else
-                    //  _telefoneRepositorio.Atualizar(entidade);
-
-                    notificationResult.Add("Endereco cadastrado com sucesso.");
+                    if (entidade.idEndereco == 0)
+                    {
+                        _enderecoRepositorio.Adicionar(entidade);
+                        notificationResult.Add("Endereco cadastrado com sucesso.");
+                    }
+                    else
+                    {
+                        _enderecoRepositorio.Atualizar(entidade);
+                        notificationResult.Add("Endereco atualizado com sucesso.");
+                    }
                 }
 
                 notificationResult.Result = entidade;
@@ -43,10 +46,7 @@ namespace AnBertoCars.Servico
             }
         }
 
-        public IEnumerable<Endereco> ListarAtivos()
-        {
-            return _enderecoRepositorio.ListarAtivos();
-        }
+        
 
         public string Excluir(Endereco entidade)
         {

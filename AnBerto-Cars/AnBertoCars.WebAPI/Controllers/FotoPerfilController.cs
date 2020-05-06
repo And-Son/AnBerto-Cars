@@ -21,8 +21,8 @@ namespace AnBertoCars.WebAPI.Controllers
             fotoperfilServico = new FotoPerfilServico();
         }
 
-        [HttpGet("ativos")]
-        public IEnumerable<FotoPerfil> Ativos() => fotoperfilServico.ListarAtivos();
+        [HttpGet("listar")]
+        public IEnumerable<FotoPerfil> Listar() => fotoperfilServico.ListarTodos();
 
         [HttpPost("salvar")]
         public NotificationResult Salvar(FotoPerfil entidade)

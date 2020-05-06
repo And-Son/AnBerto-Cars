@@ -9,7 +9,7 @@ namespace AnBertoCars.Data
 {
     public class FavoritosRepositorio : RepositorioBase<Favoritos>
     {
-        public IEnumerable<Favoritos> ListarAtivos()
+        public IEnumerable<Favoritos> ListarTodos()
         {
             return Contexto
                 .Favoritos

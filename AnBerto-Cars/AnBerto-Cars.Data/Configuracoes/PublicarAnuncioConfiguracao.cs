@@ -13,7 +13,7 @@ namespace AnBertoCars.Data.Configuracoes
         public void Configure(EntityTypeBuilder<PublicarAnuncio> builder)
         {
             builder.ToTable("PublicarAnuncio","AndBerto");
-            builder.HasKey("idPublicacao", "idCliente", "idPerfil");
+            builder.HasKey("idPublicacao");
             builder.Property(f => f.Texto)
                 .HasMaxLength(150);          
             builder.Property(f => f.ImagemPublic)

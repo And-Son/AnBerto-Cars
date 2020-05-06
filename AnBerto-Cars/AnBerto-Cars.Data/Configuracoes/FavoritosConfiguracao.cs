@@ -16,7 +16,6 @@ namespace AnBertoCars.Data.Configuracoes
             builder.HasKey("idSalvos");
             builder.Property(f => f.idCliente);
             builder.Property(f => f.idPublicacao);
-            builder.Property(f => f.idPerfil);
         }
     }
 }
