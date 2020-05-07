@@ -1,0 +1,30 @@
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Servico\obj\Debug\netcoreapp3.1\AnBertoCars.Servico.csprojAssemblyReference.cache
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Servico\obj\Debug\netcoreapp3.1\AnBertoCars.Servico.AssemblyInfoInputs.cache
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Servico\obj\Debug\netcoreapp3.1\AnBertoCars.Servico.AssemblyInfo.cs
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Servico\bin\Debug\netcoreapp3.1\AnBertoCars.Servico.deps.json
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Servico\bin\Debug\netcoreapp3.1\AnBertoCars.Servico.dll
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Servico\bin\Debug\netcoreapp3.1\AnBertoCars.Servico.pdb
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Servico\bin\Debug\netcoreapp3.1\AnBertoCars.Comum.dll
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Servico\bin\Debug\netcoreapp3.1\AnBertoCars.Data.dll
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Servico\bin\Debug\netcoreapp3.1\AnBertoCars.Dominio.dll
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Servico\bin\Debug\netcoreapp3.1\AnBertoCars.Data.pdb
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Servico\bin\Debug\netcoreapp3.1\AnBertoCars.Comum.pdb
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Servico\bin\Debug\netcoreapp3.1\AnBertoCars.Dominio.pdb
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Servico\obj\Debug\netcoreapp3.1\AnBertoCars.Servico.csproj.CopyComplete
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Servico\obj\Debug\netcoreapp3.1\AnBertoCars.Servico.dll
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Servico\obj\Debug\netcoreapp3.1\AnBertoCars.Servico.pdb
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Servico\bin\Debug\netcoreapp3.1\AnBertoCars.Servico.deps.json
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Servico\bin\Debug\netcoreapp3.1\AnBertoCars.Servico.dll
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Servico\bin\Debug\netcoreapp3.1\AnBertoCars.Servico.pdb
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Servico\bin\Debug\netcoreapp3.1\AnBertoCars.Comum.dll
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Servico\bin\Debug\netcoreapp3.1\AnBertoCars.Data.dll
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Servico\bin\Debug\netcoreapp3.1\AnBertoCars.Dominio.dll
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Servico\bin\Debug\netcoreapp3.1\AnBertoCars.Data.pdb
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Servico\bin\Debug\netcoreapp3.1\AnBertoCars.Comum.pdb
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Servico\bin\Debug\netcoreapp3.1\AnBertoCars.Dominio.pdb
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Servico\obj\Debug\netcoreapp3.1\AnBertoCars.Servico.csprojAssemblyReference.cache
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Servico\obj\Debug\netcoreapp3.1\AnBertoCars.Servico.AssemblyInfoInputs.cache
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Servico\obj\Debug\netcoreapp3.1\AnBertoCars.Servico.AssemblyInfo.cs
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Servico\obj\Debug\netcoreapp3.1\AnBertoCars.Servico.csproj.CopyComplete
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Servico\obj\Debug\netcoreapp3.1\AnBertoCars.Servico.dll
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Servico\obj\Debug\netcoreapp3.1\AnBertoCars.Servico.pdb

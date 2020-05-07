@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "AnBertoCars.Dominio/1.0.0": {
+        "dependencies": {
+          "AnBertoCars.Comum": "1.0.0"
+        },
+        "runtime": {
+          "AnBertoCars.Dominio.dll": {}
+        }
+      },
+      "AnBertoCars.Comum/1.0.0": {
+        "runtime": {
+          "AnBertoCars.Comum.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AnBertoCars.Dominio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AnBertoCars.Comum/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

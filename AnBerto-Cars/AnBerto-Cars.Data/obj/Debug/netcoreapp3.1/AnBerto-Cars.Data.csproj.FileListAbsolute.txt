@@ -1,0 +1,5 @@
+C:\Users\Humberto Júnior\source\repos\AnBerto-Cars\AnBerto-Cars\AnBerto-Cars.Data\bin\Debug\netcoreapp3.1\AnBerto-Cars.Data.deps.json
+C:\Users\Humberto Júnior\source\repos\AnBerto-Cars\AnBerto-Cars\AnBerto-Cars.Data\bin\Debug\netcoreapp3.1\AnBerto-Cars.Data.dll
+C:\Users\Humberto Júnior\source\repos\AnBerto-Cars\AnBerto-Cars\AnBerto-Cars.Data\obj\Debug\netcoreapp3.1\AnBerto-Cars.Data.csprojAssemblyReference.cache
+C:\Users\Humberto Júnior\source\repos\AnBerto-Cars\AnBerto-Cars\AnBerto-Cars.Data\obj\Debug\netcoreapp3.1\AnBerto-Cars.Data.AssemblyInfoInputs.cache
+C:\Users\Humberto Júnior\source\repos\AnBerto-Cars\AnBerto-Cars\AnBerto-Cars.Data\obj\Debug\netcoreapp3.1\AnBerto-Cars.Data.AssemblyInfo.cs

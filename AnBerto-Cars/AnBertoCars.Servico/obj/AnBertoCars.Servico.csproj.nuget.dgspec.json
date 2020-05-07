@@ -1,0 +1,256 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Diversos\\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\\7º Período\\lab 2\\AnBerto-Cars (1)\\AnBerto-Cars (1)\\AnBerto-Cars\\AnBerto-Cars\\AnBertoCars.Servico\\AnBertoCars.Servico.csproj": {}
+  },
+  "projects": {
+    "E:\\Diversos\\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\\7º Período\\lab 2\\AnBerto-Cars (1)\\AnBerto-Cars (1)\\AnBerto-Cars\\AnBerto-Cars\\AnBerto-Cars.Data\\AnBertoCars.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Diversos\\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\\7º Período\\lab 2\\AnBerto-Cars (1)\\AnBerto-Cars (1)\\AnBerto-Cars\\AnBerto-Cars\\AnBerto-Cars.Data\\AnBertoCars.Data.csproj",
+        "projectName": "AnBertoCars.Data",
+        "projectPath": "E:\\Diversos\\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\\7º Período\\lab 2\\AnBerto-Cars (1)\\AnBerto-Cars (1)\\AnBerto-Cars\\AnBerto-Cars\\AnBerto-Cars.Data\\AnBertoCars.Data.csproj",
+        "packagesPath": "C:\\Users\\Humberto Júnior\\.nuget\\packages\\",
+        "outputPath": "E:\\Diversos\\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\\7º Período\\lab 2\\AnBerto-Cars (1)\\AnBerto-Cars (1)\\AnBerto-Cars\\AnBerto-Cars\\AnBerto-Cars.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Humberto Júnior\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "E:\\Diversos\\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\\7º Período\\lab 2\\AnBerto-Cars (1)\\AnBerto-Cars (1)\\AnBerto-Cars\\AnBerto-Cars\\AnBertoCars.Dominio\\AnBertoCars.Dominio.csproj": {
+                "projectPath": "E:\\Diversos\\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\\7º Período\\lab 2\\AnBerto-Cars (1)\\AnBerto-Cars (1)\\AnBerto-Cars\\AnBerto-Cars\\AnBertoCars.Dominio\\AnBertoCars.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Diversos\\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\\7º Período\\lab 2\\AnBerto-Cars (1)\\AnBerto-Cars (1)\\AnBerto-Cars\\AnBerto-Cars\\AnBertoCars.Comum\\AnBertoCars.Comum.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Diversos\\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\\7º Período\\lab 2\\AnBerto-Cars (1)\\AnBerto-Cars (1)\\AnBerto-Cars\\AnBerto-Cars\\AnBertoCars.Comum\\AnBertoCars.Comum.csproj",
+        "projectName": "AnBertoCars.Comum",
+        "projectPath": "E:\\Diversos\\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\\7º Período\\lab 2\\AnBerto-Cars (1)\\AnBerto-Cars (1)\\AnBerto-Cars\\AnBerto-Cars\\AnBertoCars.Comum\\AnBertoCars.Comum.csproj",
+        "packagesPath": "C:\\Users\\Humberto Júnior\\.nuget\\packages\\",
+        "outputPath": "E:\\Diversos\\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\\7º Período\\lab 2\\AnBerto-Cars (1)\\AnBerto-Cars (1)\\AnBerto-Cars\\AnBerto-Cars\\AnBertoCars.Comum\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Humberto Júnior\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Diversos\\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\\7º Período\\lab 2\\AnBerto-Cars (1)\\AnBerto-Cars (1)\\AnBerto-Cars\\AnBerto-Cars\\AnBertoCars.Dominio\\AnBertoCars.Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Diversos\\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\\7º Período\\lab 2\\AnBerto-Cars (1)\\AnBerto-Cars (1)\\AnBerto-Cars\\AnBerto-Cars\\AnBertoCars.Dominio\\AnBertoCars.Dominio.csproj",
+        "projectName": "AnBertoCars.Dominio",
+        "projectPath": "E:\\Diversos\\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\\7º Período\\lab 2\\AnBerto-Cars (1)\\AnBerto-Cars (1)\\AnBerto-Cars\\AnBerto-Cars\\AnBertoCars.Dominio\\AnBertoCars.Dominio.csproj",
+        "packagesPath": "C:\\Users\\Humberto Júnior\\.nuget\\packages\\",
+        "outputPath": "E:\\Diversos\\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\\7º Período\\lab 2\\AnBerto-Cars (1)\\AnBerto-Cars (1)\\AnBerto-Cars\\AnBerto-Cars\\AnBertoCars.Dominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Humberto Júnior\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "E:\\Diversos\\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\\7º Período\\lab 2\\AnBerto-Cars (1)\\AnBerto-Cars (1)\\AnBerto-Cars\\AnBerto-Cars\\AnBertoCars.Comum\\AnBertoCars.Comum.csproj": {
+                "projectPath": "E:\\Diversos\\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\\7º Período\\lab 2\\AnBerto-Cars (1)\\AnBerto-Cars (1)\\AnBerto-Cars\\AnBerto-Cars\\AnBertoCars.Comum\\AnBertoCars.Comum.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Diversos\\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\\7º Período\\lab 2\\AnBerto-Cars (1)\\AnBerto-Cars (1)\\AnBerto-Cars\\AnBerto-Cars\\AnBertoCars.Servico\\AnBertoCars.Servico.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Diversos\\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\\7º Período\\lab 2\\AnBerto-Cars (1)\\AnBerto-Cars (1)\\AnBerto-Cars\\AnBerto-Cars\\AnBertoCars.Servico\\AnBertoCars.Servico.csproj",
+        "projectName": "AnBertoCars.Servico",
+        "projectPath": "E:\\Diversos\\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\\7º Período\\lab 2\\AnBerto-Cars (1)\\AnBerto-Cars (1)\\AnBerto-Cars\\AnBerto-Cars\\AnBertoCars.Servico\\AnBertoCars.Servico.csproj",
+        "packagesPath": "C:\\Users\\Humberto Júnior\\.nuget\\packages\\",
+        "outputPath": "E:\\Diversos\\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\\7º Período\\lab 2\\AnBerto-Cars (1)\\AnBerto-Cars (1)\\AnBerto-Cars\\AnBerto-Cars\\AnBertoCars.Servico\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Humberto Júnior\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "E:\\Diversos\\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\\7º Período\\lab 2\\AnBerto-Cars (1)\\AnBerto-Cars (1)\\AnBerto-Cars\\AnBerto-Cars\\AnBerto-Cars.Data\\AnBertoCars.Data.csproj": {
+                "projectPath": "E:\\Diversos\\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\\7º Período\\lab 2\\AnBerto-Cars (1)\\AnBerto-Cars (1)\\AnBerto-Cars\\AnBerto-Cars\\AnBerto-Cars.Data\\AnBertoCars.Data.csproj"
+              },
+              "E:\\Diversos\\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\\7º Período\\lab 2\\AnBerto-Cars (1)\\AnBerto-Cars (1)\\AnBerto-Cars\\AnBerto-Cars\\AnBertoCars.Comum\\AnBertoCars.Comum.csproj": {
+                "projectPath": "E:\\Diversos\\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\\7º Período\\lab 2\\AnBerto-Cars (1)\\AnBerto-Cars (1)\\AnBerto-Cars\\AnBerto-Cars\\AnBertoCars.Comum\\AnBertoCars.Comum.csproj"
+              },
+              "E:\\Diversos\\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\\7º Período\\lab 2\\AnBerto-Cars (1)\\AnBerto-Cars (1)\\AnBerto-Cars\\AnBerto-Cars\\AnBertoCars.Dominio\\AnBertoCars.Dominio.csproj": {
+                "projectPath": "E:\\Diversos\\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\\7º Período\\lab 2\\AnBerto-Cars (1)\\AnBerto-Cars (1)\\AnBerto-Cars\\AnBerto-Cars\\AnBertoCars.Dominio\\AnBertoCars.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Dominio\bin\Debug\netcoreapp3.1\AnBertoCars.Dominio.deps.json
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Dominio\bin\Debug\netcoreapp3.1\AnBertoCars.Dominio.dll
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Dominio\bin\Debug\netcoreapp3.1\AnBertoCars.Dominio.pdb
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Dominio\bin\Debug\netcoreapp3.1\AnBertoCars.Comum.dll
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Dominio\bin\Debug\netcoreapp3.1\AnBertoCars.Comum.pdb
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Dominio\obj\Debug\netcoreapp3.1\AnBertoCars.Dominio.csprojAssemblyReference.cache
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Dominio\obj\Debug\netcoreapp3.1\AnBertoCars.Dominio.AssemblyInfoInputs.cache
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Dominio\obj\Debug\netcoreapp3.1\AnBertoCars.Dominio.AssemblyInfo.cs
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Dominio\obj\Debug\netcoreapp3.1\AnBertoCars.Dominio.csproj.CopyComplete
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Dominio\obj\Debug\netcoreapp3.1\AnBertoCars.Dominio.dll
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Dominio\obj\Debug\netcoreapp3.1\AnBertoCars.Dominio.pdb
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Dominio\bin\Debug\netcoreapp3.1\AnBertoCars.Dominio.deps.json
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Dominio\bin\Debug\netcoreapp3.1\AnBertoCars.Dominio.dll
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Dominio\bin\Debug\netcoreapp3.1\AnBertoCars.Dominio.pdb
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Dominio\bin\Debug\netcoreapp3.1\AnBertoCars.Comum.dll
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Dominio\bin\Debug\netcoreapp3.1\AnBertoCars.Comum.pdb
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Dominio\obj\Debug\netcoreapp3.1\AnBertoCars.Dominio.csprojAssemblyReference.cache
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Dominio\obj\Debug\netcoreapp3.1\AnBertoCars.Dominio.AssemblyInfoInputs.cache
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Dominio\obj\Debug\netcoreapp3.1\AnBertoCars.Dominio.AssemblyInfo.cs
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Dominio\obj\Debug\netcoreapp3.1\AnBertoCars.Dominio.csproj.CopyComplete
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Dominio\obj\Debug\netcoreapp3.1\AnBertoCars.Dominio.dll
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Dominio\obj\Debug\netcoreapp3.1\AnBertoCars.Dominio.pdb

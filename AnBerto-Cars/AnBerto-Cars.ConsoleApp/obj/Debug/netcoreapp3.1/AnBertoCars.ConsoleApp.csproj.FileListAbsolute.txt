@@ -1,0 +1,33 @@
+C:\Users\Humberto Júnior\source\repos\AnBerto-Cars\AnBerto-Cars\AnBerto-Cars.ConsoleApp\bin\Debug\netcoreapp3.1\AnBertoCars.ConsoleApp.exe
+C:\Users\Humberto Júnior\source\repos\AnBerto-Cars\AnBerto-Cars\AnBerto-Cars.ConsoleApp\bin\Debug\netcoreapp3.1\AnBertoCars.ConsoleApp.deps.json
+C:\Users\Humberto Júnior\source\repos\AnBerto-Cars\AnBerto-Cars\AnBerto-Cars.ConsoleApp\bin\Debug\netcoreapp3.1\AnBertoCars.ConsoleApp.runtimeconfig.json
+C:\Users\Humberto Júnior\source\repos\AnBerto-Cars\AnBerto-Cars\AnBerto-Cars.ConsoleApp\bin\Debug\netcoreapp3.1\AnBertoCars.ConsoleApp.runtimeconfig.dev.json
+C:\Users\Humberto Júnior\source\repos\AnBerto-Cars\AnBerto-Cars\AnBerto-Cars.ConsoleApp\bin\Debug\netcoreapp3.1\AnBertoCars.ConsoleApp.dll
+C:\Users\Humberto Júnior\source\repos\AnBerto-Cars\AnBerto-Cars\AnBerto-Cars.ConsoleApp\bin\Debug\netcoreapp3.1\AnBertoCars.ConsoleApp.pdb
+C:\Users\Humberto Júnior\source\repos\AnBerto-Cars\AnBerto-Cars\AnBerto-Cars.ConsoleApp\obj\Debug\netcoreapp3.1\AnBertoCars.ConsoleApp.csprojAssemblyReference.cache
+C:\Users\Humberto Júnior\source\repos\AnBerto-Cars\AnBerto-Cars\AnBerto-Cars.ConsoleApp\obj\Debug\netcoreapp3.1\AnBertoCars.ConsoleApp.AssemblyInfoInputs.cache
+C:\Users\Humberto Júnior\source\repos\AnBerto-Cars\AnBerto-Cars\AnBerto-Cars.ConsoleApp\obj\Debug\netcoreapp3.1\AnBertoCars.ConsoleApp.AssemblyInfo.cs
+C:\Users\Humberto Júnior\source\repos\AnBerto-Cars\AnBerto-Cars\AnBerto-Cars.ConsoleApp\obj\Debug\netcoreapp3.1\AnBertoCars.ConsoleApp.dll
+C:\Users\Humberto Júnior\source\repos\AnBerto-Cars\AnBerto-Cars\AnBerto-Cars.ConsoleApp\obj\Debug\netcoreapp3.1\AnBertoCars.ConsoleApp.pdb
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBerto-Cars.ConsoleApp\bin\Debug\netcoreapp3.1\AnBertoCars.ConsoleApp.exe
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBerto-Cars.ConsoleApp\bin\Debug\netcoreapp3.1\AnBertoCars.ConsoleApp.deps.json
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBerto-Cars.ConsoleApp\bin\Debug\netcoreapp3.1\AnBertoCars.ConsoleApp.runtimeconfig.json
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBerto-Cars.ConsoleApp\bin\Debug\netcoreapp3.1\AnBertoCars.ConsoleApp.runtimeconfig.dev.json
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBerto-Cars.ConsoleApp\bin\Debug\netcoreapp3.1\AnBertoCars.ConsoleApp.dll
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBerto-Cars.ConsoleApp\bin\Debug\netcoreapp3.1\AnBertoCars.ConsoleApp.pdb
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBerto-Cars.ConsoleApp\obj\Debug\netcoreapp3.1\AnBertoCars.ConsoleApp.csprojAssemblyReference.cache
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBerto-Cars.ConsoleApp\obj\Debug\netcoreapp3.1\AnBertoCars.ConsoleApp.AssemblyInfoInputs.cache
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBerto-Cars.ConsoleApp\obj\Debug\netcoreapp3.1\AnBertoCars.ConsoleApp.AssemblyInfo.cs
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBerto-Cars.ConsoleApp\obj\Debug\netcoreapp3.1\AnBertoCars.ConsoleApp.dll
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBerto-Cars.ConsoleApp\obj\Debug\netcoreapp3.1\AnBertoCars.ConsoleApp.pdb
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBerto-Cars.ConsoleApp\bin\Debug\netcoreapp3.1\AnBertoCars.ConsoleApp.exe
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBerto-Cars.ConsoleApp\bin\Debug\netcoreapp3.1\AnBertoCars.ConsoleApp.deps.json
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBerto-Cars.ConsoleApp\bin\Debug\netcoreapp3.1\AnBertoCars.ConsoleApp.runtimeconfig.json
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBerto-Cars.ConsoleApp\bin\Debug\netcoreapp3.1\AnBertoCars.ConsoleApp.runtimeconfig.dev.json
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBerto-Cars.ConsoleApp\bin\Debug\netcoreapp3.1\AnBertoCars.ConsoleApp.dll
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBerto-Cars.ConsoleApp\bin\Debug\netcoreapp3.1\AnBertoCars.ConsoleApp.pdb
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBerto-Cars.ConsoleApp\obj\Debug\netcoreapp3.1\AnBertoCars.ConsoleApp.csprojAssemblyReference.cache
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBerto-Cars.ConsoleApp\obj\Debug\netcoreapp3.1\AnBertoCars.ConsoleApp.AssemblyInfoInputs.cache
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBerto-Cars.ConsoleApp\obj\Debug\netcoreapp3.1\AnBertoCars.ConsoleApp.AssemblyInfo.cs
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBerto-Cars.ConsoleApp\obj\Debug\netcoreapp3.1\AnBertoCars.ConsoleApp.dll
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBerto-Cars.ConsoleApp\obj\Debug\netcoreapp3.1\AnBertoCars.ConsoleApp.pdb
