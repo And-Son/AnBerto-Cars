@@ -15,7 +15,8 @@ namespace AnBertoCars.Data.Configuracoes
             builder.ToTable("PublicarAnuncio","AndBerto");
             builder.HasKey("idPublicacao");
             builder.Property(f => f.Texto)
-                .HasMaxLength(150);          
+                .HasMaxLength(150);
+            builder.Property(f => f.idCliente);
             builder.Property(f => f.ImagemPublic)
                 .HasMaxLength(50);
             builder.Property(f => f.Comentar)

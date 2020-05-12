@@ -11,7 +11,7 @@ namespace AnBertoCars.Teste
         public void TestIdadePositivo()
         {
             Cliente _cliente = new Cliente();
-            _cliente.Idade = new DateTime(1999, 5, 27);
+            _cliente.DataNasc = new DateTime(1999, 5, 27);
             var resultado = _cliente.CalculaIdade();
             Assert.Equal(20, resultado);//resultado é 20 anos
         }
@@ -22,7 +22,7 @@ namespace AnBertoCars.Teste
         public void TestIdadeNegativo()
         {
             Cliente _cliente = new Cliente();
-            _cliente.Idade = new DateTime(1999, 5, 27);
+            _cliente.DataNasc = new DateTime(1999, 5, 27);
             var resultado = _cliente.CalculaIdade();
             Assert.NotEqual(0, resultado);//resultado é 20 anos
         }
