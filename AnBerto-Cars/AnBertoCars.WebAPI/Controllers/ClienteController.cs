@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using AnBertoCars.Comum.NotificationPattern;
 using AnBertoCars.Dominio;
 using AnBertoCars.Servico;
+using AnBertoCars.Dominio.Interfaces.Servico;
 
 namespace AnBertoCars.WebAPI.Controllers
 {
@@ -14,11 +15,11 @@ namespace AnBertoCars.WebAPI.Controllers
     [ApiController]
     public class ClienteController : ControllerBase
     {
-        private readonly ClienteServico clienteServico;
+        private readonly IClienteServico clienteServico;
 
-        public ClienteController()
+        public ClienteController(IClienteServico clienteServico)
         {
-            clienteServico = new ClienteServico();
+            clienteServico = clienteServico;
         }
 
         [HttpGet("listar")]

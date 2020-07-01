@@ -4,16 +4,18 @@ using System.Text;
 using AnBertoCars.Data;
 using AnBertoCars.Dominio;
 using AnBertoCars.Comum.NotificationPattern;
+using AnBertoCars.Dominio.Interfaces.Repositorio;
+using AnBertoCars.Dominio.Interfaces.Servico;
 
 namespace AnBertoCars.Servico
 {
-    public class PublicarAnuncioServico
+    public class PublicarAnuncioServico : IPublicarAnuncioServico
     {
-        private readonly PublicarAnuncioRepositorio _publicarAnuncioRepositorio;
+        private readonly IPublicarAnuncioRepositorio _publicarAnuncioRepositorio;
 
-        public PublicarAnuncioServico()
+        public PublicarAnuncioServico(IPublicarAnuncioRepositorio publicarAnuncioRepositorio)
         {
-            _publicarAnuncioRepositorio = new PublicarAnuncioRepositorio();
+            _publicarAnuncioRepositorio = publicarAnuncioRepositorio;
         }
 
         public NotificationResult Salvar(PublicarAnuncio entidade)
@@ -57,6 +59,11 @@ namespace AnBertoCars.Servico
         public IEnumerable<PublicarAnuncio> ListarTodos()
         {
             return _publicarAnuncioRepositorio.ListarTodos();
+        }
+
+        public PublicarAnuncio ListarById(int keys)
+        {
+            return _publicarAnuncioRepositorio.BuscarUm(keys);
         }
     }
 }

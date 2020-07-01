@@ -4,16 +4,18 @@ using System.Text;
 using AnBertoCars.Data;
 using AnBertoCars.Dominio;
 using AnBertoCars.Comum.NotificationPattern;
+using AnBertoCars.Dominio.Interfaces.Servico;
+using AnBertoCars.Dominio.Interfaces.Repositorio;
 
 namespace AnBertoCars.Servico
 {
-    public class EnderecoServico
+    public class EnderecoServico : IEnderecoServico
     {
-        private readonly EnderecoRepositorio _enderecoRepositorio;
+        private readonly IEnderecoRepositorio _enderecoRepositorio;
 
-        public EnderecoServico()
+        public EnderecoServico(IEnderecoRepositorio enderecoRepositorio)
         {
-            _enderecoRepositorio = new EnderecoRepositorio();
+            _enderecoRepositorio = enderecoRepositorio;
         }
 
         public NotificationResult Salvar(Endereco entidade)

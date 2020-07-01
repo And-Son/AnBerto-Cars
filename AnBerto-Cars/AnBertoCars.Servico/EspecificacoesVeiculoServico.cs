@@ -4,16 +4,18 @@ using System.Text;
 using AnBertoCars.Data;
 using AnBertoCars.Dominio;
 using AnBertoCars.Comum.NotificationPattern;
+using AnBertoCars.Dominio.Interfaces.Servico;
+using AnBertoCars.Dominio.Interfaces.Repositorio;
 
 namespace AnBertoCars.Servico
 {
-    public class EspecificacoesVeiculoServico
+    public class EspecificacoesVeiculoServico : IEspecificacoesVeiculoServico
     {
-        private readonly EspecificacoesVeiculoRepositorio _especificacoesveiculoRepositorio;
+        private readonly IEspecificacoesVeiculoRepositorio _especificacoesveiculoRepositorio;
 
-        public EspecificacoesVeiculoServico()
+        public EspecificacoesVeiculoServico(IEspecificacoesVeiculoRepositorio especificacoesVeiculoRepositorio)
         {
-            _especificacoesveiculoRepositorio = new EspecificacoesVeiculoRepositorio();
+            _especificacoesveiculoRepositorio = especificacoesVeiculoRepositorio;
         }
 
         public NotificationResult Salvar(EspecificacoesVeiculo entidade)

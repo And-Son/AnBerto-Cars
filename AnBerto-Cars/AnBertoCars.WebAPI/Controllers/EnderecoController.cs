@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using AnBertoCars.Comum.NotificationPattern;
 using AnBertoCars.Dominio;
 using AnBertoCars.Servico;
+using AnBertoCars.Dominio.Interfaces.Servico;
 
 namespace AnBertoCars.WebAPI.Controllers
 {
@@ -14,11 +15,11 @@ namespace AnBertoCars.WebAPI.Controllers
     [ApiController]    
     public class EnderecoController : ControllerBase
     {
-        private readonly EnderecoServico enderecoServico;
+        private readonly IEnderecoServico enderecoServico;
 
-        public EnderecoController()
+        public EnderecoController(IEnderecoServico enderecoServico)
         {
-            enderecoServico = new EnderecoServico();
+            enderecoServico = enderecoServico;
         }
 
         [HttpGet("listar")]

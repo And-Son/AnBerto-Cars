@@ -4,16 +4,18 @@ using System.Text;
 using AnBertoCars.Data;
 using AnBertoCars.Dominio;
 using AnBertoCars.Comum.NotificationPattern;
+using AnBertoCars.Dominio.Interfaces.Servico;
+using AnBertoCars.Dominio.Interfaces.Repositorio;
 
 namespace AnBertoCars.Servico
 {
-    public class GruposServico
+    public class GruposServico : IGruposServico
     {
-        private readonly GruposRepositorio _gruposRepositorio;
+        private readonly IGruposRepositorio _gruposRepositorio;
 
-        public GruposServico()
+        public GruposServico(IGruposRepositorio gruposRepositorio)
         {
-            _gruposRepositorio = new GruposRepositorio();
+            _gruposRepositorio = gruposRepositorio;
         }
 
         public NotificationResult Salvar(Grupos entidade)

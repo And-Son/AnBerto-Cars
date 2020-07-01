@@ -4,16 +4,18 @@ using System.Text;
 using AnBertoCars.Data;
 using AnBertoCars.Dominio;
 using AnBertoCars.Comum.NotificationPattern;
+using AnBertoCars.Dominio.Interfaces.Servico;
+using AnBertoCars.Dominio.Interfaces.Repositorio;
 
 namespace AnBertoCars.Servico
 {
-    public class FotoPerfilServico
+    public class FotoPerfilServico : IFotoPerfilServico
     {
-        private readonly FotoPerfilRepositorio _fotoperfilRepositorio;
+        private readonly IFotoPerfilRepositorio _fotoperfilRepositorio;
 
-        public FotoPerfilServico()
+        public FotoPerfilServico(IFotoPerfilRepositorio fotoPerfilRepositorio)
         {
-            _fotoperfilRepositorio = new FotoPerfilRepositorio();
+            _fotoperfilRepositorio = fotoPerfilRepositorio;
         }
 
         public NotificationResult Salvar(FotoPerfil entidade)

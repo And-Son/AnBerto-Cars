@@ -5,17 +5,19 @@ using AnBertoCars.Data;
 using AnBertoCars.Dominio;
 using AnBertoCars.Comum.NotificationPattern;
 using AnBertoCars.Comum.Util;
+using AnBertoCars.Dominio.Interfaces.Servico;
+using AnBertoCars.Dominio.Interfaces.Repositorio;
 
 namespace AnBertoCars.Servico
 {
-    public class ClienteServico
+    public class ClienteServico : IClienteServico
     {
-        private readonly ClienteRepositorio _clienteRepositorio;
+        private readonly IClienteRepositorio _clienteRepositorio;
         //private readonly ValidaCPF _validaCPF;
 
-        public ClienteServico()
+        public ClienteServico(IClienteRepositorio clienteRepositorio)
         {
-            _clienteRepositorio = new ClienteRepositorio();
+            _clienteRepositorio = clienteRepositorio;
             //_validaCPF = new ValidaCPF();
         }
 

@@ -4,16 +4,18 @@ using System.Text;
 using AnBertoCars.Data;
 using AnBertoCars.Dominio;
 using AnBertoCars.Comum.NotificationPattern;
+using AnBertoCars.Dominio.Interfaces.Servico;
+using AnBertoCars.Dominio.Interfaces.Repositorio;
 
 namespace AnBertoCars.Servico
 {
-    public class TelefoneServico
+    public class TelefoneServico : ITelefoneServico
     {
-        private readonly TelefoneRepositorio _telefoneRepositorio;
+        private readonly ITelefoneRepositorio _telefoneRepositorio;
 
-        public TelefoneServico()
+        public TelefoneServico(ITelefoneRepositorio telefoneRepositorio)
         {
-            _telefoneRepositorio = new TelefoneRepositorio();
+            _telefoneRepositorio = telefoneRepositorio;
         }
 
         public NotificationResult Salvar(Telefone entidade)

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using AnBertoCars.Comum.NotificationPattern;
 using AnBertoCars.Dominio;
+using AnBertoCars.Dominio.Interfaces.Servico;
 using AnBertoCars.Servico;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -14,11 +15,11 @@ namespace AnBertoCars.WebAPI.Controllers
     [ApiController]
     public class AvaliarVendedorController : ControllerBase
     {
-        private readonly AvaliarVendedorServico avaliarvendedorServico;
+        private readonly IAvaliarVendedorServico avaliarvendedorServico;
 
-        public AvaliarVendedorController()
+        public AvaliarVendedorController(IAvaliarVendedorServico produtoServico)
         {
-            avaliarvendedorServico = new AvaliarVendedorServico();
+            avaliarvendedorServico = produtoServico;
         }
 
         [HttpGet("listar")]

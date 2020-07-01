@@ -4,16 +4,18 @@ using System.Text;
 using AnBertoCars.Data;
 using AnBertoCars.Dominio;
 using AnBertoCars.Comum.NotificationPattern;
+using AnBertoCars.Dominio.Interfaces.Servico;
+using AnBertoCars.Dominio.Interfaces.Repositorio;
 
 namespace AnBertoCars.Servico
 {
-    public class FavoritosServico
+    public class FavoritosServico : IFavoritosServico
     {
-        private readonly FavoritosRepositorio _favoritosSRepositorio;
+        private readonly IFavoritosRepositorio _favoritosSRepositorio;
 
-        public FavoritosServico()
+        public FavoritosServico(IFavoritosRepositorio favoritosServico)
         {
-            _favoritosSRepositorio = new FavoritosRepositorio();
+            _favoritosSRepositorio = favoritosServico;
         }
 
         public NotificationResult Salvar(Favoritos entidade)

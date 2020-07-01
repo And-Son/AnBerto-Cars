@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using AnBertoCars.Comum.NotificationPattern;
 using AnBertoCars.Dominio;
 using AnBertoCars.Servico;
+using AnBertoCars.Dominio.Interfaces.Servico;
 
 namespace AnBertoCars.WebAPI.Controllers
 {
@@ -14,11 +15,11 @@ namespace AnBertoCars.WebAPI.Controllers
     [ApiController]
     public class EspecificacoesVeiculoController : ControllerBase
     {
-        private readonly EspecificacoesVeiculoServico especificacoesVeiculoServico;
+        private readonly IEspecificacoesVeiculoServico especificacoesVeiculoServico;
 
-        public EspecificacoesVeiculoController()
+        public EspecificacoesVeiculoController(IEspecificacoesVeiculoServico especificacoesVeiculoServico)
         {
-            especificacoesVeiculoServico = new EspecificacoesVeiculoServico();
+            especificacoesVeiculoServico = especificacoesVeiculoServico;
         }
 
         [HttpGet("listar")]

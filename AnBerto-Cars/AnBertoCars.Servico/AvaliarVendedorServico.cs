@@ -4,16 +4,18 @@ using System.Text;
 using AnBertoCars.Data;
 using AnBertoCars.Dominio;
 using AnBertoCars.Comum.NotificationPattern;
+using AnBertoCars.Dominio.Interfaces.Servico;
+using AnBertoCars.Dominio.Interfaces.Repositorio;
 
 namespace AnBertoCars.Servico
 {
-    public class AvaliarVendedorServico
+    public class AvaliarVendedorServico : IAvaliarVendedorServico
     {
-        private readonly AvaliarVendedorRepositorio _avaliarvendedorRepositorio;
+        private readonly IAvaliarVendedorRepositorio _avaliarvendedorRepositorio;
 
-        public AvaliarVendedorServico()
+        public AvaliarVendedorServico(IAvaliarVendedorRepositorio avaliarvendedorrepositorio)
         {
-            _avaliarvendedorRepositorio = new AvaliarVendedorRepositorio();
+            _avaliarvendedorRepositorio = avaliarvendedorrepositorio;
         }
 
         public NotificationResult Salvar(AvaliarVendedor entidade)

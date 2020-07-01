@@ -4,16 +4,18 @@ using AnBertoCars.Dominio;
 using AnBertoCars.Comum.NotificationPattern;
 using System;
 using System.Collections.Generic;
+using AnBertoCars.Dominio.Interfaces.Servico;
+using AnBertoCars.Dominio.Interfaces.Repositorio;
 
 namespace AnBertoCars.Servico
 {
-    public class DirectVendedorServico
+    public class DirectVendedorServico : IDirectVendedorServico
     {
-        private readonly DirectVendedorRepositorio _directvendedorRepositorio;
+        private readonly IDirectVendedorRepositorio _directvendedorRepositorio;
 
-        public DirectVendedorServico()
+        public DirectVendedorServico(IDirectVendedorRepositorio directVendedorRepositorio)
         {
-            _directvendedorRepositorio = new DirectVendedorRepositorio();
+            _directvendedorRepositorio = directVendedorRepositorio;
         }
 
         public NotificationResult Salvar(DirectVendedor entidade)

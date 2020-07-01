@@ -7,27 +7,39 @@ using Microsoft.AspNetCore.Mvc;
 using AnBertoCars.Comum.NotificationPattern;
 using AnBertoCars.Dominio;
 using AnBertoCars.Servico;
+using Microsoft.AspNetCore.Cors;
+using AnBertoCars.Dominio.Interfaces.Servico;
 
 namespace AnBertoCars.WebAPI.Controllers
 {
     [Route("[controller]")]
     [ApiController]
+    //[EnableCors(origins: "http://localhost:8100/", headers: "*", methods: "*")]
     public class PublicarAnuncioController : ControllerBase
     {
-        private readonly PublicarAnuncioServico publicarAnuncioServico;
+        private readonly IPublicarAnuncioServico publicarAnuncioServico;
 
-        public PublicarAnuncioController()
+        public PublicarAnuncioController(IPublicarAnuncioServico publicarAnuncioServico)
         {
-            publicarAnuncioServico = new PublicarAnuncioServico();
+            publicarAnuncioServico = publicarAnuncioServico;
         }
 
         [HttpGet("listar")]
+        [EnableCors]
         public IEnumerable<PublicarAnuncio> Listar() => publicarAnuncioServico.ListarTodos();
 
         [HttpPost("salvar")]
+        [EnableCors]
         public NotificationResult Salvar(PublicarAnuncio entidade)
         {
             return publicarAnuncioServico.Salvar(entidade);
+        }
+
+        [HttpGet("listarum")]
+        [EnableCors]
+        public PublicarAnuncio ListarById(int keys)
+        {
+            return publicarAnuncioServico.ListarById(keys);
         }
 
         [HttpDelete]

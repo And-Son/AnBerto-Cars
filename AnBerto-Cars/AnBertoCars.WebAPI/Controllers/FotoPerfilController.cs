@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using AnBertoCars.Comum.NotificationPattern;
 using AnBertoCars.Dominio;
 using AnBertoCars.Servico;
+using AnBertoCars.Dominio.Interfaces.Servico;
 
 namespace AnBertoCars.WebAPI.Controllers
 {
@@ -14,11 +15,11 @@ namespace AnBertoCars.WebAPI.Controllers
     [ApiController]
     public class FotoPerfilController : ControllerBase
     {
-        private readonly FotoPerfilServico fotoperfilServico;
+        private readonly IFotoPerfilServico fotoperfilServico;
 
-        public FotoPerfilController()
+        public FotoPerfilController(IFotoPerfilServico fotoPerfilServico)
         {
-            fotoperfilServico = new FotoPerfilServico();
+            fotoperfilServico = fotoPerfilServico;
         }
 
         [HttpGet("listar")]

@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using AnBertoCars.Comum.NotificationPattern;
 using AnBertoCars.Dominio;
 using AnBertoCars.Servico;
+using AnBertoCars.Dominio.Interfaces.Servico;
 
 namespace AnBertoCars.WebAPI.Controllers
 {
@@ -14,11 +15,11 @@ namespace AnBertoCars.WebAPI.Controllers
     [ApiController]
     public class FavoritosController : ControllerBase
     {
-        private readonly FavoritosServico favoritosServico;
+        private readonly IFavoritosServico favoritosServico;
 
-        public FavoritosController()
+        public FavoritosController(IFavoritosServico favoritosServico)
         {
-            favoritosServico = new FavoritosServico();
+            favoritosServico = favoritosServico;
         }
 
         [HttpGet("listar")]

@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using AnBertoCars.Dominio.Interfaces.Repositorio;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +7,7 @@ using System.Text;
 
 namespace AnBertoCars.Data
 {
-    public abstract class RepositorioBase<T> where T : class
+    public abstract class RepositorioBase<T> : IRepositorioBase<T> where T : class
     {
         protected Contexto Contexto { get; }
         private DbSet<T> Entidade { get; }
@@ -29,23 +30,29 @@ namespace AnBertoCars.Data
                 .ToList();
         }
 
-        public void Adicionar(T entidade)
+        public void Adicionar(T entidade, bool saveChanges = true)
         {
             Entidade.Add(entidade);
-            Contexto.SaveChanges();
+            if (saveChanges)
+                SaveChanges();
         }
 
-        public void Remover(T entidade)
+        public void Remover(T entidade, bool saveChanges = true)
         {
             Entidade.Remove(entidade);
-            Contexto.SaveChanges();
+            if (saveChanges)
+                SaveChanges();
         }
 
-        public void Atualizar(T entidade)
+        public void Atualizar(T entidade, bool saveChanges = true)
         {
             Entidade.Update(entidade);
+            if (saveChanges)
+                SaveChanges();
+        }
+        public void SaveChanges()
+        {
             Contexto.SaveChanges();
         }
-
     }
 }
