@@ -8,6 +8,8 @@ using AnBertoCars.Comum.NotificationPattern;
 using AnBertoCars.Dominio;
 using AnBertoCars.Servico;
 using AnBertoCars.Dominio.Interfaces.Servico;
+using Microsoft.AspNetCore.Authorization;
+
 
 namespace AnBertoCars.WebAPI.Controllers
 {
@@ -15,26 +17,26 @@ namespace AnBertoCars.WebAPI.Controllers
     [ApiController]
     public class FotoPerfilController : ControllerBase
     {
-        private readonly IFotoPerfilServico fotoperfilServico;
+        private readonly IFotoPerfilServico _fotoperfilServico;
 
         public FotoPerfilController(IFotoPerfilServico fotoPerfilServico)
         {
-            fotoperfilServico = fotoPerfilServico;
+            _fotoperfilServico = fotoPerfilServico;
         }
 
         [HttpGet("listar")]
-        public IEnumerable<FotoPerfil> Listar() => fotoperfilServico.ListarTodos();
+        public IEnumerable<FotoPerfil> Listar() => _fotoperfilServico.ListarTodos();
 
         [HttpPost("salvar")]
         public NotificationResult Salvar(FotoPerfil entidade)
         {
-            return fotoperfilServico.Salvar(entidade);
+            return _fotoperfilServico.Salvar(entidade);
         }
 
         [HttpDelete]
         public string Excluir(FotoPerfil entidade)
         {
-            return fotoperfilServico.Excluir(entidade);
+            return _fotoperfilServico.Excluir(entidade);
         }
     }
 }

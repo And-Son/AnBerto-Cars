@@ -48,7 +48,36 @@ namespace AnBertoCars.Servico
             }
         }
 
-        
+        public NotificationResult Atualizar(PublicarAnuncio entidade)
+        {
+            var NotificationResult = new NotificationResult();
+
+            try
+            {
+                if (entidade.idPublicacao != 0)
+
+                    entidade.idPublicacao = entidade.idPublicacao;
+
+                if (NotificationResult.IsValid)
+                {
+                    _publicarAnuncioRepositorio.Atualizar(entidade);
+                    NotificationResult.Add("Usuario Alterado com Sucesso!");
+
+                    return NotificationResult;
+                }
+
+                else
+                {
+                    return NotificationResult.Add(new NotificationError("O codigo informado não existe!", NotificationErrorType.USER));
+
+                }
+            }
+            catch (Exception ex)
+            {
+                return NotificationResult.Add(new NotificationError("O codigo informado não existe!", NotificationErrorType.USER));
+            }
+
+        }
 
         public string Excluir(PublicarAnuncio entidade)
         {

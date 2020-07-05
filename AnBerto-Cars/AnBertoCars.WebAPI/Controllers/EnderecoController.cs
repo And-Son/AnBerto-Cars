@@ -8,6 +8,7 @@ using AnBertoCars.Comum.NotificationPattern;
 using AnBertoCars.Dominio;
 using AnBertoCars.Servico;
 using AnBertoCars.Dominio.Interfaces.Servico;
+using Microsoft.AspNetCore.Authorization;
 
 namespace AnBertoCars.WebAPI.Controllers
 {
@@ -15,26 +16,26 @@ namespace AnBertoCars.WebAPI.Controllers
     [ApiController]    
     public class EnderecoController : ControllerBase
     {
-        private readonly IEnderecoServico enderecoServico;
+        private readonly IEnderecoServico _enderecoServico;
 
         public EnderecoController(IEnderecoServico enderecoServico)
         {
-            enderecoServico = enderecoServico;
+            _enderecoServico = enderecoServico;
         }
 
         [HttpGet("listar")]
-        public IEnumerable<Endereco> Listar() => enderecoServico.ListarTodos();
+        public IEnumerable<Endereco> Listar() => _enderecoServico.ListarTodos();
 
         [HttpPost("salvar")]
         public NotificationResult Salvar(Endereco entidade)
         {
-            return enderecoServico.Salvar(entidade);
+            return _enderecoServico.Salvar(entidade);
         }
 
         [HttpDelete]
         public string Excluir(Endereco entidade)
         {
-            return enderecoServico.Excluir(entidade);
+            return _enderecoServico.Excluir(entidade);
         }
     }
 }

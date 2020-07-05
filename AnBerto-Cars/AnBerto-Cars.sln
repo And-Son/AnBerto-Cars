@@ -13,8 +13,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infraestrutura", "3 - I
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Comum", "4 - Comum", "{6E16E6AB-73B8-4C27-82D3-38240B19CC58}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnBertoCars.ConsoleApp", "AnBerto-Cars.ConsoleApp\AnBertoCars.ConsoleApp.csproj", "{CEFEB690-6BED-46D8-B9F9-60F5375A88E2}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnBertoCars.Data", "AnBerto-Cars.Data\AnBertoCars.Data.csproj", "{1EA4AA93-9877-47BA-97EA-6B5B367B0F10}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnBertoCars.Dominio", "AnBertoCars.Dominio\AnBertoCars.Dominio.csproj", "{D826B41F-9799-4C78-A34C-F022FD3B8636}"
@@ -27,7 +25,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnBertoCars.WebAPI", "AnBer
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Teste", "5 - Teste", "{CB850445-63CB-4E39-9156-FE365D1A63AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnBertoCars.Teste", "AnBertoCars.Teste\AnBertoCars.Teste.csproj", "{C2ED608A-2F96-461A-9AC6-4ED9A5E2BF8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnBertoCars.Teste", "AnBertoCars.Teste\AnBertoCars.Teste.csproj", "{C2ED608A-2F96-461A-9AC6-4ED9A5E2BF8F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +33,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CEFEB690-6BED-46D8-B9F9-60F5375A88E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CEFEB690-6BED-46D8-B9F9-60F5375A88E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CEFEB690-6BED-46D8-B9F9-60F5375A88E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CEFEB690-6BED-46D8-B9F9-60F5375A88E2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1EA4AA93-9877-47BA-97EA-6B5B367B0F10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1EA4AA93-9877-47BA-97EA-6B5B367B0F10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EA4AA93-9877-47BA-97EA-6B5B367B0F10}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -68,7 +62,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{CEFEB690-6BED-46D8-B9F9-60F5375A88E2} = {C72EA0BF-A7FE-4DC7-82C2-93515142692E}
 		{1EA4AA93-9877-47BA-97EA-6B5B367B0F10} = {EDDE0BC6-AE47-41BF-86D8-ABDD9AFB4FB9}
 		{D826B41F-9799-4C78-A34C-F022FD3B8636} = {B3775517-1ABB-403B-A0B3-97D8252B12E3}
 		{86394B6F-88A6-4DB5-BB4F-ED1C24B1DBAE} = {6E16E6AB-73B8-4C27-82D3-38240B19CC58}

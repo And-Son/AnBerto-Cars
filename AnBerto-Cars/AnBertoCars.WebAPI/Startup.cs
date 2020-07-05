@@ -16,6 +16,8 @@ using AnBertoCars.Dominio.Interfaces;
 using AnBertoCars.Dominio.Interfaces.Servico;
 using AnBertoCars.Dominio.Interfaces.Repositorio;
 using AnBertoCars.Data;
+using Microsoft.AspNetCore.Authentication;
+using WebApi.Helpers;
 
 namespace AnBertoCars.WebAPI
 {
@@ -32,6 +34,10 @@ namespace AnBertoCars.WebAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //configuracao autenticacao
+            services.AddAuthentication("BasicAuthentication")
+                .AddScheme<AuthenticationSchemeOptions, BasicAuthenticationHandler>("BasicAuthentication", null);
+
             // AvaliarVendedor
             services.AddTransient<IAvaliarVendedorServico, AvaliarVendedorServico>();
             services.AddTransient<IAvaliarVendedorRepositorio, AvaliarVendedorRepositorio>();
@@ -69,8 +75,16 @@ namespace AnBertoCars.WebAPI
                 options.AddPolicy(name: MyAllowSpecificOrigins,
                                   builder =>
                                   {
-                                      builder.WithOrigins("http://localhost:8100/",
-                                                          "http://localhost:8100");
+                                      builder.WithOrigins("http://localhost:8101/",
+                                                          "http://localhost:8101",
+                                                          "https://localhost:8101/",
+                                                          "https://localhost:8101",
+                                                          "http://localhost:8100/",
+                                                          "http://localhost:8100",
+                                                          "https://localhost:8100/",
+                                                          "https://localhost:8100")
+                                      .AllowAnyHeader()
+                                      .AllowAnyMethod();
                                   });
             });
             services.AddControllers();

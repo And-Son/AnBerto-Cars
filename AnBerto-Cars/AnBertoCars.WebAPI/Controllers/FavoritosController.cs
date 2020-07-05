@@ -8,6 +8,7 @@ using AnBertoCars.Comum.NotificationPattern;
 using AnBertoCars.Dominio;
 using AnBertoCars.Servico;
 using AnBertoCars.Dominio.Interfaces.Servico;
+using Microsoft.AspNetCore.Authorization;
 
 namespace AnBertoCars.WebAPI.Controllers
 {
@@ -15,26 +16,26 @@ namespace AnBertoCars.WebAPI.Controllers
     [ApiController]
     public class FavoritosController : ControllerBase
     {
-        private readonly IFavoritosServico favoritosServico;
+        private readonly IFavoritosServico _favoritosServico;
 
         public FavoritosController(IFavoritosServico favoritosServico)
         {
-            favoritosServico = favoritosServico;
+            _favoritosServico = favoritosServico;
         }
 
         [HttpGet("listar")]
-        public IEnumerable<Favoritos> Listar() => favoritosServico.ListarTodos();
+        public IEnumerable<Favoritos> Listar() => _favoritosServico.ListarTodos();
 
         [HttpPost("salvar")]
         public NotificationResult Salvar(Favoritos entidade)
         {
-            return favoritosServico.Salvar(entidade);
+            return _favoritosServico.Salvar(entidade);
         }
 
         [HttpDelete]
         public string Excluir(Favoritos entidade)
         {
-            return favoritosServico.Excluir(entidade);
+            return _favoritosServico.Excluir(entidade);
         }
     }
 }

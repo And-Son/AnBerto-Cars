@@ -8,6 +8,7 @@ using AnBertoCars.Comum.NotificationPattern;
 using AnBertoCars.Dominio;
 using AnBertoCars.Servico;
 using AnBertoCars.Dominio.Interfaces.Servico;
+using Microsoft.AspNetCore.Authorization;
 
 namespace AnBertoCars.WebAPI.Controllers
 {
@@ -15,26 +16,26 @@ namespace AnBertoCars.WebAPI.Controllers
     [ApiController]
     public class TelefoneController : ControllerBase
     {
-        private readonly ITelefoneServico telefoneServico;
+        private readonly ITelefoneServico _telefoneServico;
 
         public TelefoneController(ITelefoneServico telefoneServico)
         {
-            telefoneServico = telefoneServico;
+            _telefoneServico = telefoneServico;
         }
 
         [HttpGet("listar")]
-        public IEnumerable<Telefone> Listar() => telefoneServico.ListarTodos();
+        public IEnumerable<Telefone> Listar() => _telefoneServico.ListarTodos();
 
         [HttpPost("salvar")]
         public NotificationResult Salvar(Telefone entidade)
         {
-            return telefoneServico.Salvar(entidade);
+            return _telefoneServico.Salvar(entidade);
         }
 
         [HttpDelete]
         public string Excluir(Telefone entidade)
         {
-            return telefoneServico.Excluir(entidade);
+            return _telefoneServico.Excluir(entidade);
         }
     }
 }

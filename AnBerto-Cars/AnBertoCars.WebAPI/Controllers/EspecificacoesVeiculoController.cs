@@ -8,6 +8,7 @@ using AnBertoCars.Comum.NotificationPattern;
 using AnBertoCars.Dominio;
 using AnBertoCars.Servico;
 using AnBertoCars.Dominio.Interfaces.Servico;
+using Microsoft.AspNetCore.Authorization;
 
 namespace AnBertoCars.WebAPI.Controllers
 {
@@ -15,26 +16,26 @@ namespace AnBertoCars.WebAPI.Controllers
     [ApiController]
     public class EspecificacoesVeiculoController : ControllerBase
     {
-        private readonly IEspecificacoesVeiculoServico especificacoesVeiculoServico;
+        private readonly IEspecificacoesVeiculoServico _especificacoesVeiculoServico;
 
         public EspecificacoesVeiculoController(IEspecificacoesVeiculoServico especificacoesVeiculoServico)
         {
-            especificacoesVeiculoServico = especificacoesVeiculoServico;
+            _especificacoesVeiculoServico = especificacoesVeiculoServico;
         }
 
         [HttpGet("listar")]
-        public IEnumerable<EspecificacoesVeiculo> Listar() => especificacoesVeiculoServico.ListarTodos();
+        public IEnumerable<EspecificacoesVeiculo> Listar() => _especificacoesVeiculoServico.ListarTodos();
 
         [HttpPost("salvar")]
         public NotificationResult Salvar(EspecificacoesVeiculo entidade)
         {
-            return especificacoesVeiculoServico.Salvar(entidade);
+            return _especificacoesVeiculoServico.Salvar(entidade);
         }
 
         [HttpDelete]
         public string Excluir(EspecificacoesVeiculo entidade)
         {
-            return especificacoesVeiculoServico.Excluir(entidade);
+            return _especificacoesVeiculoServico.Excluir(entidade);
         }
     }
 }

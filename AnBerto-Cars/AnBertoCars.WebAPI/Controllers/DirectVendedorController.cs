@@ -8,6 +8,7 @@ using AnBertoCars.Comum.NotificationPattern;
 using AnBertoCars.Dominio;
 using AnBertoCars.Servico;
 using AnBertoCars.Dominio.Interfaces.Servico;
+using Microsoft.AspNetCore.Authorization;
 
 namespace AnBertoCars.WebAPI.Controllers
 {
@@ -15,26 +16,26 @@ namespace AnBertoCars.WebAPI.Controllers
     [ApiController]
     public class DirectVendedorController : ControllerBase
     {
-        private readonly IDirectVendedorServico directvendedorServico;
+        private readonly IDirectVendedorServico _directvendedorServico;
 
         public DirectVendedorController(IDirectVendedorServico directVendedorServico)
         {
-            directvendedorServico = directVendedorServico;
+            _directvendedorServico = directVendedorServico;
         }
 
         [HttpGet("listar")]
-        public IEnumerable<DirectVendedor> Listar() => directvendedorServico.ListarTodos();
+        public IEnumerable<DirectVendedor> Listar() => _directvendedorServico.ListarTodos();
 
         [HttpPost("salvar")]
         public NotificationResult Salvar(DirectVendedor entidade)
         {
-            return directvendedorServico.Salvar(entidade);
+            return _directvendedorServico.Salvar(entidade);
         }
 
         [HttpDelete]
         public string Excluir(DirectVendedor entidade)
         {
-            return directvendedorServico.Excluir(entidade);
+            return _directvendedorServico.Excluir(entidade);
         }
     }
 }

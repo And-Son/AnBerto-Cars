@@ -7,6 +7,8 @@ using AnBertoCars.Comum.NotificationPattern;
 using AnBertoCars.Comum.Util;
 using AnBertoCars.Dominio.Interfaces.Servico;
 using AnBertoCars.Dominio.Interfaces.Repositorio;
+using System.Threading.Tasks;
+using System.Linq;
 
 namespace AnBertoCars.Servico
 {
@@ -51,7 +53,18 @@ namespace AnBertoCars.Servico
             }
         }
 
-        
+        public Cliente ListarById(int keys)
+        {
+            return _clienteRepositorio.ListarUm(keys);
+        }
+
+        public async Task<Cliente> Authenticate(string login, string senha)
+        {
+            var usuario = await Task.Run(() => _clienteRepositorio.ListarTodos().SingleOrDefault(x => x.UsuarioLogin == login && x.SenhaLogin == senha));
+            if (usuario == null)
+                return null;            
+            return usuario;
+        }
 
         public string Excluir(Cliente entidade)
         {

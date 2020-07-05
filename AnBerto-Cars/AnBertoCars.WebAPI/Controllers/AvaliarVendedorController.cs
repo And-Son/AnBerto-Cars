@@ -8,6 +8,7 @@ using AnBertoCars.Dominio.Interfaces.Servico;
 using AnBertoCars.Servico;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 
 namespace AnBertoCars.WebAPI.Controllers
 {
@@ -15,26 +16,26 @@ namespace AnBertoCars.WebAPI.Controllers
     [ApiController]
     public class AvaliarVendedorController : ControllerBase
     {
-        private readonly IAvaliarVendedorServico avaliarvendedorServico;
+        private readonly IAvaliarVendedorServico _avaliarvendedorServico;
 
         public AvaliarVendedorController(IAvaliarVendedorServico produtoServico)
         {
-            avaliarvendedorServico = produtoServico;
+            _avaliarvendedorServico = produtoServico;
         }
 
         [HttpGet("listar")]
-        public IEnumerable<AvaliarVendedor> Listar() => avaliarvendedorServico.ListarTodos();
+        public IEnumerable<AvaliarVendedor> Listar() => _avaliarvendedorServico.ListarTodos();
 
         [HttpPost("salvar")]
         public NotificationResult Salvar(AvaliarVendedor entidade)
         {
-            return avaliarvendedorServico.Salvar(entidade);
+            return _avaliarvendedorServico.Salvar(entidade);
         }
 
         [HttpDelete]
         public string Excluir(AvaliarVendedor entidade)
         {
-            return avaliarvendedorServico.Excluir(entidade);            
+            return _avaliarvendedorServico.Excluir(entidade);            
         }
     }
 }

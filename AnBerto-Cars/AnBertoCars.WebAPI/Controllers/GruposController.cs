@@ -8,6 +8,8 @@ using AnBertoCars.Comum.NotificationPattern;
 using AnBertoCars.Dominio;
 using AnBertoCars.Servico;
 using AnBertoCars.Dominio.Interfaces.Servico;
+using Microsoft.AspNetCore.Authorization;
+
 
 namespace AnBertoCars.WebAPI.Controllers
 {
@@ -15,26 +17,26 @@ namespace AnBertoCars.WebAPI.Controllers
     [ApiController]
     public class GruposController : ControllerBase
     {
-        private readonly IGruposServico gruposServico;
+        private readonly IGruposServico _gruposServico;
 
         public GruposController(IGruposServico gruposServico)
         {
-            gruposServico = gruposServico;
+            _gruposServico = gruposServico;
         }
 
         [HttpGet("listar")]
-        public IEnumerable<Grupos> Listar() => gruposServico.ListarTodos();
+        public IEnumerable<Grupos> Listar() => _gruposServico.ListarTodos();
 
         [HttpPost("salvar")]
         public NotificationResult Salvar(Grupos entidade)
         {
-            return gruposServico.Salvar(entidade);
+            return _gruposServico.Salvar(entidade);
         }
 
         [HttpDelete]
         public string Excluir(Grupos entidade)
         {
-            return gruposServico.Excluir(entidade);
+            return _gruposServico.Excluir(entidade);
         }
     }
 }

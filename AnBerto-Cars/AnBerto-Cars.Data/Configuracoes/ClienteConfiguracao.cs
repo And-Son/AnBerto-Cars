@@ -15,13 +15,22 @@ namespace AnBertoCars.Data.Configuracoes
             builder.ToTable("Cliente","AndBerto");
             builder.HasKey("idCliente");
             builder.Property(f => f.CPF)
-                .HasMaxLength(11);
-            builder.Property(f => f.DataNasc);
+                .HasMaxLength(11)
+                .HasColumnName("CPF");
+            builder.Property(f => f.DataNasc)
+                .HasColumnName("DataNasc");
             builder.Property(f => f.Nome)
                 .IsRequired()
-                .HasMaxLength(150);
-            builder.Property(f => f.idTelefone);
-            builder.Property(f => f.idEndereco);
+                .HasMaxLength(150)
+                .HasColumnName("Nome");
+            builder.Property(f => f.idTelefone)
+                .HasColumnName("idTelefone");
+            builder.Property(f => f.idEndereco)
+                .HasColumnName("idEndereco");
+            builder.Property(f => f.UsuarioLogin)
+                .HasColumnName("UsuarioLogin");
+            builder.Property(f => f.SenhaLogin)
+                .HasColumnName("SenhaLogin");
         }
     }
 }

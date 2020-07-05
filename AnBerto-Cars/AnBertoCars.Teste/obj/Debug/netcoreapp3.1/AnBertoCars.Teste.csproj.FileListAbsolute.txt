@@ -213,3 +213,4 @@ E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (
 E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Teste\obj\Debug\netcoreapp3.1\AnBertoCars.Teste.csproj.CopyComplete
 E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Teste\obj\Debug\netcoreapp3.1\AnBertoCars.Teste.dll
 E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Teste\obj\Debug\netcoreapp3.1\AnBertoCars.Teste.pdb
+E:\Diversos\ESTUDOS (SISTEMAS DE INFORMAÇÃO)\7º Período\lab 2\AnBerto-Cars (1)\AnBerto-Cars (1)\AnBerto-Cars\AnBerto-Cars\AnBertoCars.Teste\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Debug.dll

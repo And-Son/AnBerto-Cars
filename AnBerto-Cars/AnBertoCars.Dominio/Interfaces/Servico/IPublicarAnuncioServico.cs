@@ -11,5 +11,6 @@ namespace AnBertoCars.Dominio.Interfaces.Servico
         public string Excluir(PublicarAnuncio entidade);
         public IEnumerable<PublicarAnuncio> ListarTodos();
         public PublicarAnuncio ListarById(int keys);
+        public NotificationResult Atualizar(PublicarAnuncio entidade);
     }
 }

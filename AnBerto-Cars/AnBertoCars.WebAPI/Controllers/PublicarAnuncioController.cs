@@ -9,6 +9,7 @@ using AnBertoCars.Dominio;
 using AnBertoCars.Servico;
 using Microsoft.AspNetCore.Cors;
 using AnBertoCars.Dominio.Interfaces.Servico;
+using Microsoft.AspNetCore.Authorization;
 
 namespace AnBertoCars.WebAPI.Controllers
 {
@@ -17,35 +18,43 @@ namespace AnBertoCars.WebAPI.Controllers
     //[EnableCors(origins: "http://localhost:8100/", headers: "*", methods: "*")]
     public class PublicarAnuncioController : ControllerBase
     {
-        private readonly IPublicarAnuncioServico publicarAnuncioServico;
+        private readonly IPublicarAnuncioServico _publicarAnuncioServico;
 
         public PublicarAnuncioController(IPublicarAnuncioServico publicarAnuncioServico)
         {
-            publicarAnuncioServico = publicarAnuncioServico;
+            _publicarAnuncioServico = publicarAnuncioServico;
         }
 
         [HttpGet("listar")]
         [EnableCors]
-        public IEnumerable<PublicarAnuncio> Listar() => publicarAnuncioServico.ListarTodos();
+        public IEnumerable<PublicarAnuncio> Listar() => _publicarAnuncioServico.ListarTodos();
 
         [HttpPost("salvar")]
         [EnableCors]
         public NotificationResult Salvar(PublicarAnuncio entidade)
         {
-            return publicarAnuncioServico.Salvar(entidade);
+            return _publicarAnuncioServico.Salvar(entidade);
+        }
+
+        [HttpPut("atualizar")]
+        [EnableCors]
+        public NotificationResult Atualizar(PublicarAnuncio entidade)
+        {
+            return _publicarAnuncioServico.Atualizar(entidade);
         }
 
         [HttpGet("listarum")]
         [EnableCors]
         public PublicarAnuncio ListarById(int keys)
         {
-            return publicarAnuncioServico.ListarById(keys);
+            return _publicarAnuncioServico.ListarById(keys);
         }
 
-        [HttpDelete]
+        [HttpDelete("excluir")]
+        [EnableCors]
         public string Excluir(PublicarAnuncio entidade)
         {
-            return publicarAnuncioServico.Excluir(entidade);
+            return _publicarAnuncioServico.Excluir(entidade);
         }
     }
 }

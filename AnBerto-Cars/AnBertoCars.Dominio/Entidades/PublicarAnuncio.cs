@@ -11,6 +11,7 @@ namespace AnBertoCars.Dominio
         public int idCliente { get; set; } 
         public string ImagemPublic { get; set; }
         public string Texto { get; set; }
+        public string TituloAnuncio { get; set; }
         public string Comentar { get; set; }
         public bool Curtir { get; set; }
     }
